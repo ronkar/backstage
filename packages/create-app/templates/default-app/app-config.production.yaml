@@ -1,0 +1,9 @@
+app:
+  baseUrl: roadie-fargate-alb-2084964384.eu-west-1.elb.amazonaws.com
+
+backend:
+  baseUrl: roadie-fargate-alb-2084964384.eu-west-1.elb.amazonaws.com
+  listen:
+    port: 7000
+  csp:
+    upgrade-insecure-requests: false # For tutorial purposes only
